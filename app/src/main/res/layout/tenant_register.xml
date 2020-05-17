@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regbg"
+    android:orientation="vertical"
+    tools:context="com.example.jaya.tenant.TenantRegister">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tenant Registration Form :"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="@color/txtwhite"
+            android:gravity="center"
+
+            />
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstnametenantreg"
+            android:layout_weight="1"
+            android:hint="FirstName"
+            android:textColor="@color/txtwhite"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/opacitywhite"
+            android:backgroundTint="@color/opacitywhite"
+            android:padding="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastnametenantreg"
+            android:layout_weight="1"
+            android:hint="LastName"
+            android:padding="10dp"
+            android:textColor="@color/txtwhite"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/opacitywhite"
+            android:backgroundTint="@color/opacitywhite"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernametenantreg"
+        android:hint="Username"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/txtwhite"
+
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailtenantreg"
+        android:hint="Email"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/txtwhite"
+
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordtenantreg"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:textColor="@color/txtwhite"
+
+        android:inputType="textPassword"
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/confirmpasswordtenantreg"
+        android:hint="ConfirmPassword"
+        android:inputType="textPassword"
+        android:textColor="@color/txtwhite"
+
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Select your Gender"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gendertenantreg"
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        >
+    </Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dobtenantreg"
+        android:clickable="true"
+        android:editable="false"
+        android:hint="DOB"
+        android:textColor="@color/txtwhite"
+
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addresstenantreg"
+        android:padding="10dp"
+        android:hint="Address"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/txtwhite"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phnotenantreg"
+        android:hint="Phone no"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/txtwhite"
+
+        android:inputType="number"
+        android:textColorHint="@color/opacitywhite"
+        android:backgroundTint="@color/opacitywhite"
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aadhaarnotenantreg"
+            android:hint="Aadhaar no"
+            android:padding="10dp"
+            android:textColor="@color/txtwhite"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:textColorHint="@color/opacitywhite"
+            android:backgroundTint="@color/opacitywhite"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mentiontenantreg"
+            android:hint="Mention you are A Student,Worker or Other"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColorHint="@color/opacitywhite"
+            android:textColor="@color/txtwhite"
+
+            android:backgroundTint="@color/opacitywhite"
+            />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerbtntenantreg"
+        android:padding="15dp"
+        android:text="register"
+            android:background="@color/green"
+            android:textColor="@color/txtwhite"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+        />
+    </LinearLayout>
+</ScrollView>
+
+

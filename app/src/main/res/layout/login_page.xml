@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blurmed"
+    android:orientation="vertical"
+    tools:context="com.example.jaya.tenant.LoginPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/manhome"
+            android:layout_marginTop="10dp"
+            android:id="@+id/logo"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Roaming is Over Now!"
+            android:textColor="@color/red"
+            android:textSize="25dp"
+            android:id="@+id/roamingtxtvw"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/opacitywhite"
+            android:hint="Type here User Name"
+            android:textAlignment="center"
+            android:id="@+id/usernameloginpage"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Type here Password"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:inputType="textPassword"
+            android:background="@color/opacitywhite"
+            android:textAlignment="center"
+            android:id="@+id/passwordloginpage"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login With US : "
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/loginwithustxtvw"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="tenant"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:textColor="@color/txtwhite"
+            android:id="@+id/tenantloginbtn"
+            />
+
+            <Button
+                android:id="@+id/ownerloginbtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:text="owner"
+                android:textColor="@color/txtwhite"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up With Us :"
+            android:textColor="@color/red"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textSize="20dp"
+            android:id="@+id/signupwithustxtvw"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/blue"
+                android:text="tenant"
+                android:textColor="@color/txtwhite"
+                android:textSize="20dp"
+                android:id="@+id/tenantsignupbtn"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="owner"
+                android:textColor="@color/txtwhite"
+                android:textSize="20dp"
+                android:background="@color/blue"
+                android:id="@+id/ownersignupbtn"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

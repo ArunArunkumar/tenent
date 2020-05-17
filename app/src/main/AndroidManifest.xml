@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jaya.tenant">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/manhome"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/manhome"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginPage" />
+        <activity android:name=".TenantRegister" />
+        <activity android:name=".OwnerRegister" />
+        <activity android:name=".TenantSearch" />
+        <activity android:name=".TenantPage" />
+        <activity android:name=".OwnerPage"
+            android:windowSoftInputMode="stateHidden"
+            />
+        <activity android:name=".Tenent" />
+        <activity android:name=".TenentAdapter" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SendActivity" />
+        <activity android:name=".OwnerDashboard" />
+        <activity android:name=".OwnerViewActivity"></activity>
+    </application>
+
+</manifest>
